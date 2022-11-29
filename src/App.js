@@ -8,7 +8,7 @@ import Lista from "./Lista";
 
 const App = () => {
   return (
-    <div className="App" style={{display: 'flex', flexDirection: 'row'}}>
+    <div className="App">
         <LeftMenu/>
         <Router>
             <Routes>

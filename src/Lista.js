@@ -1,9 +1,8 @@
 import bd from './bd.json';
-import { useState } from 'react';
 
 const Lista = () => {
 
-    const [restaurants, setRestaurants] = useState(bd.restaurants);
+    const restaurants = bd.restaurants;
 
     return ( 
         <div className='main-div'>
