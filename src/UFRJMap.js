@@ -1,15 +1,6 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
-
-const RestaurantInfos = [
-    {
-        name: 'anjinho',
-        left: 420,
-        top: 100,
-        description: 'Restaurante Anjinho',
-        menu: 'https://www.google.com'
-    }
-]
+import bd from './bd.json';
 
 const UFRJMap = () => {
 
@@ -25,22 +16,24 @@ const UFRJMap = () => {
 
     const [showPopup, setShowPopup] = useState(false);
 
+    console.log(bd)
+
     const MapDiv = styled.div`
         width: 900px;
         height: 600px;
+        position: relative;
     `;
 
     const MapImage = styled.img`
-        width: 100%;
-        height: 100%;
+        width: 900px;
+        height: 600px;
         border-radius: 10px;
-        position: relative;
     `;
 
 
 
     const handleMarkerClick = (restaurant) => {
-        const choosenRestaurant = RestaurantInfos.filter((restaurantInfo) => restaurantInfo.name === restaurant)[0];
+        const choosenRestaurant = bd.restaurants.filter((restaurantInfo) => restaurantInfo.name === restaurant)[0];
         setCurrentRestaurant(choosenRestaurant);
         console.log(choosenRestaurant);
         setShowPopup(true);
@@ -51,8 +44,9 @@ const UFRJMap = () => {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100vw;
+        width: 80vw;
         height: 100vh;
+        background-color: #eaeaea;
     `;
 
     const PopupDiv = styled.div`
@@ -64,18 +58,21 @@ const UFRJMap = () => {
         top: 0;
         left: 0;
         margin-top: calc(50vh - 250px);
-        margin-left: calc(50vw - 350px);
+        margin-left: calc(25vw - 350px);
         display: flex;
         flex-direction: column;
+        padding: 20px;
     `
         
     const Background = styled.div`
-        width: 100vw;
-        height: 100vh;
+        width: 150vw;
+        height: 150vh;
         background-color: rgba(0, 0, 0, 0.5);
         position: absolute;
         top: 0;
         left: 0;
+        margin-left: -50vw;
+        margin-top: -5vh;
     `
 
     const MapMarker = styled.div`
@@ -85,25 +82,48 @@ const UFRJMap = () => {
         position: absolute;
         cursor: pointer;
         top: 100px;
-        left: 650px;
+        left: 420px;
         background-color: blue;
     `
 
-    const AnjinhoMarker = styled(MapMarker)`
-    `;
+    
+    const MenuButton = styled.div`
+        width: 100px;
+        height: 50px;
+        background-color: #3D348B;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        color: #eaeaea;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 0.3s ease all;
+        
+        &:hover {
+            background-color: #2c256b;
+        }
+
+    `
 
 
     return ( 
         <MainDiv>
             <MapDiv>
                 <MapImage src={`https://www.mapquestapi.com/staticmap/v5/map?key=Ni2ADHDUCU3MFwVbERoz6VC0jiYwgpI2&center=-22.8605,-43.230&zoom=17&type=hyb&size=600,400@2x&locations=${latitude},${longitude}&defaultMarker=via-7B0099`} alt="" />
-                <MapMarker onClick={() => handleMarkerClick('anjinho')} />
-                { showPopup &&  <div>
+                {
+                    bd.restaurants.map((restaurant) => {
+                        return (
+                            <MapMarker onClick={() => handleMarkerClick(restaurant.name)} style={{top: restaurant.top, left: restaurant.left, backgroundColor: restaurant.hex}}></MapMarker>
+                        )
+                    })
+                }
+                { showPopup && <div>
                     <Background onClick={() => setShowPopup(false)} />
                                     <PopupDiv>
                                         <h1>{currentRestaurant.name}</h1>
                                         <p>{currentRestaurant.description}</p>
-                                        <a href={currentRestaurant.menu}>Menu</a>
+                                        <MenuButton onClick={() => window.open(`/restaurant?r=${currentRestaurant.name}`, "_blank")}>Menu</MenuButton>
                                     </PopupDiv> 
                                 </div>
                 }

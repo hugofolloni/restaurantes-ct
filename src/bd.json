@@ -1,0 +1,49 @@
+{
+    "restaurants": [
+         {
+            "name": "anjinho",
+            "left": 420,
+            "top": 100,
+            "description": "Restaurante que vende ..., tem como pratos principais...",
+            "menu": [
+                {
+                    "name": "Camarão",
+                    "price": 20.00
+                },
+                {
+                    "name": "Peixe",
+                    "price": 15.00
+                },
+                {
+                    "name": "Frango",
+                    "price": 10.00
+                }
+            ],
+            "hex": "#ff0000",
+	        "faixa": "$$"
+        },
+        {
+            "name": "budy",
+            "left": 620,
+            "top": 400,
+            "description": "Restaurante que vende ..., tem como pratos principais...",
+            "menu": [
+                {
+                    "name": "Camarão",
+                    "price": 20.00
+                },
+                {
+                    "name": "Peixe",
+                    "price": 15.00
+                },
+                {
+                    "name": "Frango",
+                    "price": 10.00
+                }
+            ],
+            "hex": "#ffff32",
+            "faixa": "$$$"
+        }
+]
+}
+
