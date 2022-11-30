@@ -51,16 +51,17 @@ const UFRJMap = () => {
 
     const PopupDiv = styled.div`
         width: 700px;
-        height: 500px;
+        height: 300px;
         background-color: white;
         border-radius: 10px;
         position: absolute;
         top: 0;
         left: 0;
-        margin-top: calc(50vh - 250px);
+        margin-top: calc(50vh - 150px);
         margin-left: calc(25vw - 350px);
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         padding: 20px;
     `
         
@@ -84,6 +85,7 @@ const UFRJMap = () => {
         top: 100px;
         left: 420px;
         background-color: blue;
+        border: 1px solid white;
     `
 
     

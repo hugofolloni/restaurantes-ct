@@ -1,7 +1,9 @@
+import logo from './assets/logo.png';
+
 const LeftMenu = () => {
     return ( 
         <div className="left-menu">
-            <a href="/"><h1>Restaurantes CT</h1></a>
+            <a href="/"><img className='logo-image' src={logo} alt="" /></a>
             <div className='links'>
                 <a href="/list">Lista</a>
                 <a href="/map">Mapa</a>

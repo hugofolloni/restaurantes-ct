@@ -6,6 +6,7 @@ const Lista = () => {
 
     return ( 
         <div className='main-div'>
+            <a className="voltar-div" href="/">Voltar</a>
             <div className='restaurants-list'>
                 {restaurants.map((restaurant) => {
                     return (
