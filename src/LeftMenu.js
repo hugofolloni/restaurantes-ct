@@ -10,6 +10,7 @@ const LeftMenu = () => {
             </div>
             <div className="members">
                 <h3>Membros</h3>
+                <p>Hugo Folloni</p>
                 <p>Thiago Nobre</p>
                 <p>Clayton Portal</p>
                 <p>Vitória Nazareth</p>
