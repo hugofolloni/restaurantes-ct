@@ -5,7 +5,7 @@ const LeftMenu = () => {
         <div className="left-menu">
             <a href="/"><img className='logo-image' src={logo} alt="" /></a>
             <div className='links'>
-                <a href="/list">Lista</a>
+                <a href="/list">Restaurantes</a>
                 <a href="/map">Mapa</a>
             </div>
             <div className="members">

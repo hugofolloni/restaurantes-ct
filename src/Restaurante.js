@@ -16,17 +16,20 @@ const Restaurante = () => {
                 </div>
                 <h3>{restaurantInfo.faixa}</h3>
                 <h4>{restaurantInfo.description}</h4>
-                <div className="menu">
-                    {restaurantInfo.menu.map((item) => {
-                        return (
-                            <div className="item">
-                                <h3>{item.name}</h3>
-                                <p>{item.price}</p>
-                            </div>
-                    )
-                    }
-                    )}                         
-                </div>
+                {/* <div className='restaurant-menu'> */}
+                    <div className="menu">
+                    <h2>Cardápio</h2>
+                        {restaurantInfo.menu.map((item) => {
+                            return (
+                                <div className="item">
+                                    <h3>{item.name}</h3>
+                                    <p>{item.price}</p>
+                                </div>
+                        )
+                        }
+                        )}                         
+                    </div>
+                {/* </div> */}
             </div>
         </div>
 
