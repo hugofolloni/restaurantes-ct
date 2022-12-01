@@ -4,11 +4,12 @@
             "name": "Anjinho Lanches",
             "left": 450,
             "top": 142,
-            "description": "Restaurante que vende diversos tipos de lanches, tem como pratos principais seus sanduíches especiais.",
+            "description": "Restaurante conhecido por um self-service a balança, com opções de proteínas, repleto de uma diversidade de saladas, além de sanduíches e sucos naturais.",
+            "local": "Entre os blocos B e C",
             "menu": [
                  {
                     "name": "Lanches:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "X-Burguer",
@@ -52,7 +53,7 @@
                 },
                 {
                     "name": "Adicional:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Queijo",
@@ -72,7 +73,7 @@
                 },
                 {
                     "name": "Sanduíches Naturais:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Atum",
@@ -88,7 +89,7 @@
                 },
                 {
                     "name": "Sanduíches Especiais:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Naval (2 hambúrgueres de frango, batata palha, catupiry, alface e tomate)",
@@ -132,7 +133,7 @@
                 },
                 {
                     "name": "Tapioca e Crepioca (Salgados):",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Queijo Minas",
@@ -176,7 +177,7 @@
                 }, 
                 {
                     "name": "Tapioca e Crepioca (Doces):",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Nutella",
@@ -196,7 +197,7 @@
                 },
                 {
                     "name": "Bebidas:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Red Bull",
@@ -260,7 +261,7 @@
                 },
                 {
                     "name": "Sucos:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Abacaxi",
@@ -358,7 +359,8 @@
             "name": "Batista's Lanches",
             "left": 420,
             "top": 98,
-            "description": "Restaurante que vende diversos pratos e lanches, tem como pratos principais os pratos da casa",
+            "local": "Entre os blocos A e B",
+            "description": "Restaurante conhecido com pratos de proteína com acompanhamentos simples, além de sanduíches e salgados. Famoso pelo prato Frango Universitário.",
             "menu": [
                 {
                     "name": "Sanduíche Natural (pão de forma, frango desfiado, cenoura ralada, passas, milho e maionese Hellmanns)",
@@ -366,7 +368,7 @@
                 },
                 {
                     "name": "Burgers (contém salada):",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Cheeseburger",
@@ -394,7 +396,7 @@
                 },
                 {
                     "name": "Filé de Frango (contém salada):",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Com queijo",
@@ -414,7 +416,7 @@
                 },
                 {
                     "name": "Tradicionais:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Misto Quente",
@@ -454,7 +456,7 @@
                 },
                 {
                     "name": "Pratos da Casa:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Picanha Burger (hambúrguer de picanha 120g, ovo, fritas, salada e molho)",
@@ -474,7 +476,7 @@
                 },
                 {
                     "name": "Sucos:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Abacaxi 300ml",
@@ -574,7 +576,7 @@
                 },
                 {
                     "name": "Vitaminas:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Abacate ao Leite (300ml)",
@@ -610,7 +612,7 @@
                 },
                 {
                     "name": "Bebidas Diversas:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Água 500ml",
@@ -658,7 +660,7 @@
                 },
                 {
                     "name": "Salgados:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Salgados",
@@ -674,13 +676,14 @@
                 }
             ],
             "hex": "#EF8275",
-            "faixa": "$$$"
+            "faixa": "$$"
         },
         {
             "name": "Bom Gosto Lanches",
             "left": 570,
             "top": 325,
-            "description": "Restaurante que vende diversos tipos de pratos e acompanhamentos, tem como pratos principais aqueles na faixa dos 20 reais",
+            "local": "Entre os blocos E e F",
+            "description": "Restaurante que vende diversos tipos de pratos e acompanhamentos, tem como pratos principais aqueles na faixa dos 20 reais.",
             "menu": [
                 {
                     "name": "Almôndegas",
@@ -748,7 +751,7 @@
                 },
                 {
                     "name": "Acompanhamentos: arroz, feijão, fritas ou purê, farofa, macarrão e salada (alface, tomate, cebola, cenoura e beterraba)",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#7DDF64",
@@ -758,7 +761,8 @@
             "name": "Budy",
             "left": 605,
             "top": 375,
-            "description": "Restaurante que vende diferentes opções de prato, tem como pratos principais as proteínas na faixa dos 20 reais",
+            "local": "Entre os blocos F e G",
+            "description": "Restaurante cujo cardápio envolve uma grande diversidade de proteínas, com a possibilidade de escolha de até 5 acompanhamentos. Também possui opções para café da manhã e tarde.",
             "menu": [
                 {
                     "name": "Frango Grelhado",
@@ -826,7 +830,7 @@
                 },
                 {
                     "name": "Acompanhamentos (escolha 5): arroz, feijão, farofa simples, farofa panko com banana, batata frita, purê, salpicão sem proteína, macarrão, salada mista(alface, tomate e cebola roxa) e salada de legumes",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#E7E247",
@@ -836,11 +840,12 @@
             "name": "Daeq",
             "left": 368,
             "top": 390,
-            "description": "Restaurante que vende salgados e doces, com destaque para o açaí e diversos tipos de croissant",
+            "local": "Nos fundos do bloco E",
+            "description": "Lanchonete famosa por seus salgados e açaí, está localizado no Diretório Acadêmico de Engenharia Química.",
             "menu": [
                 {
                     "name": "Salgados:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Croissant de quatro queijos",
@@ -896,7 +901,7 @@
                 },
                 {
                     "name": "Doces:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Torta fatia",
@@ -920,7 +925,7 @@
                 },
                 {
                     "name": "Açaí self service:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Açaí 200ml",
@@ -944,7 +949,7 @@
                 },
                 {
                     "name": "Acompanhamentos: granola, paçoca, sucrilhos, leite ninho, confete, granulado, chocolate, caramelo, leite condensado, morango, doce de leite",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#7161EF",
@@ -954,11 +959,12 @@
             "name": "Italian Tutti",
             "left": 410,
             "top": 80,
-            "description": "Restaurante que vende massas e pratos feitos, tem como pratos principais os frangos e as massas",
+            "local": "Entre os blocos A e B",
+            "description": "Restaurante italiano com foco em massas e pratos executivos econômicos. O restaurante possui preços atrativos quando comparados ao resto do CT.",
             "menu": [
                 {
                     "name": "Executivos:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Frango à Milanesa",
@@ -998,7 +1004,7 @@
                 },
                 {
                     "name": "Monte seu prato(massa + molho + 8 acompanhamentos):",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Sem acompanhamentos especiais",
@@ -1010,19 +1016,19 @@
                 },
                 {
                     "name": "Massas: fusille, spaghetti, fettuccine, penne, ravioli, gnocchi ou risotto",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Molhos: tomate, bolonhesa, branco, quatro queijos",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Acompanhamentos: alho, azeitona verde, azeitona preta, champignon, calabresa, ervilha, frango, milho, mussarela, ovo, palmito, presunto, queijo branco, tomate, tomate seco, ricota, uva passas",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Acompanhamentos especiais: alcaparras, curry, salsa e cebolinha, orégano, pimenta calabresa, manjericão, uva passas",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#5F1A37",
@@ -1032,11 +1038,12 @@
             "name": "Kilowatts Restaurante",
             "left": 530,
             "top": 560,
-            "description": "Restaurante self-service ao kilo",
+            "description": "Restaurante self-service famoso pelo seu buffet caro porém variado e de qualidade.",
+            "local": "Nos fundos do bloco H",
             "menu": [
                 {
                     "name": "Buffet:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Buffet à Kg sem CHURRASCO",
@@ -1060,7 +1067,7 @@
                 },
                 {
                     "name": "Outros:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Refrigerante",
@@ -1106,7 +1113,8 @@
             "name": "Pizza na Pedra",
             "left": 440,
             "top": 130,
-            "description": "Restaurante que vende pizzas",
+            "description": "Pizza 👍",
+            "local": "Entre os blocos B e C",
             "menu": [
                 {
                     "name": "Mussarela (mussarela e orégano) 18cm",
@@ -1148,7 +1156,8 @@
             "name": "Projectus",
             "left": 420,
             "top": 470,
-            "description": "Restaurante self-service em que o preço varia com o horário",
+            "description": "Restaurante self-service em que o preço varia com o horário, conhecido por ser o local preferido dos professores.",
+            "local": "Nos fundos do bloco F",
             "menu": [
                 {
                     "name": "Self service (antes das 14h)",
@@ -1160,7 +1169,7 @@
                 },
                 {
                     "name": "Bebidas:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Refrigerante lata",
@@ -1210,11 +1219,12 @@
             "name": "Quentinhas da Dilcinha",
             "left": 640,
             "top": 490,
-            "description": "Restaurante que vende quentinhas de tamanhos variados.",
+            "local": "No segundo andar do bloco H",
+            "description": "Restaurante que vende quentinhas de tamanhos variados. Número: (21) 98120-4779",
             "menu": [
                 {
                     "name": "Quentinhas:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Pequena",
@@ -1223,11 +1233,7 @@
                 {
                     "name": "Grande",
                     "price": 15.00
-                },
-                {
-                    "name": "Número: (21) 98120-4779",
-                    "price": ""
-                } 
+                }
             ],
             "hex": "#E1BB80",
             "faixa": "$"
@@ -1236,11 +1242,12 @@
             "name": "Rodrigues Lanches",
             "left": 472,
             "top": 178,
-            "description": "Restaurante que vende diversas possibilidades de pratos",
+            "local": "Entre os blocos C e D",
+            "description": "Restaurante 👍",
             "menu": [
                 {
                     "name": "Pratos:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Frango Grelhado",
@@ -1272,7 +1279,7 @@
                 },
                 {
                     "name": "Acompanhamentos: arroz, feijão, fritas, espaguete, purê, farofa, salpicão e salada",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#73EEDC",
@@ -1282,11 +1289,12 @@
             "name": "Universidade Lanches (Mestre dos Magos)",
             "left": 522,
             "top": 255,
-            "description": "Restaurante que vende diversas possibilidades de pratos",
+            "local": "Entre os blocos D e E",
+            "description": "Restaurante cujo cardápio envolve uma grande diversidade de proteínas, onde você escolhe até 5 acompanhamentos.",
             "menu": [
                 {
                     "name": "Pratos:",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Almôndegas ao Sugo",
@@ -1338,7 +1346,7 @@
                 },
                 {
                     "name": "Acompanhamentos: arroz, feijão, tutu, macarrão, purê, alface, tomate, cenoura, cebola, couve, batata frita, farofa e salpicão",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#849324",
@@ -1348,11 +1356,12 @@
             "name": "Yakisoba do CT",
             "left": 485,
             "top": 200,
-            "description": "Restaurante que vende diversos tipos de proteínas… menos Yakisoba (não tem um nome oficial, mas tanto quem trabalha lá quanto os clientes usam esse nome)",
+            "local": "Entre os blocos C e D",
+            "description": "Restaurante que vende diversos tipos de proteínas… menos Yakisoba (não tem um nome oficial, mas tanto quem trabalha lá quanto os clientes usam esse nome).",
             "menu": [
                 {
                     "name": "Pratos",
-                    "price": ""
+                    "price": "NaN"
                 },
                 {
                     "name": "Almôndegas ao Molho",
@@ -1408,7 +1417,7 @@
                 },
                 {
                     "name": "Acompanhamentos: arroz, feijão, farofa, fritas, macarrão e salada completa",
-                    "price": ""
+                    "price": "NaN"
                 }
             ],
             "hex": "#E1DD8F",

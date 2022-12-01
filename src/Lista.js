@@ -16,12 +16,13 @@ const Lista = () => {
                                 <div style={{ marginRight: '10px', marginTop: '-15px', width: '20px', height: '20px', backgroundColor: restaurant.hex, borderRadius: '50%'}}/>
                                 <h3>{restaurant.name} </h3>
                             </div>
-                                <p>{restaurant.description}</p>
-                                <p>{restaurant.faixa}</p>
+                            <p> ⋅ {restaurant.local}</p>
+                            <p>{restaurant.description}</p>
+                            <p>{restaurant.faixa}</p>
                             </div>
                         </a>
-                    )
-                })}
+                    )}
+                )}
             </div>
         </div>
      );

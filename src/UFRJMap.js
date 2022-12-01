@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, } from 'react';
 import styled from 'styled-components';
 import bd from './bd.json';
 
@@ -57,8 +57,8 @@ const UFRJMap = () => {
         position: absolute;
         top: 0;
         left: 0;
-        margin-top: calc(50vh - 150px);
-        margin-left: calc(25vw - 350px);
+        margin-top: calc(300px - 150px);
+        margin-left: calc(150px - 10vw);
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -73,7 +73,7 @@ const UFRJMap = () => {
         top: 0;
         left: 0;
         margin-left: -50vw;
-        margin-top: -5vh;
+        margin-top: -25vh;
     `
 
     const MapMarker = styled.div`
@@ -86,6 +86,10 @@ const UFRJMap = () => {
         left: 420px;
         background-color: blue;
         border: 1px solid white;
+        transition: 0.15s ease all;
+        &:hover {
+            transform: scale(1.2);
+        }
     `
 
     
