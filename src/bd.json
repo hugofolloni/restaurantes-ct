@@ -360,7 +360,7 @@
             "left": 420,
             "top": 98,
             "local": "Entre os blocos A e B",
-            "description": "Restaurante conhecido com pratos de proteína com acompanhamentos simples, além de sanduíches e salgados. Famoso pelo prato Frango Universitário.",
+            "description": "Restaurante conhecido pelos pratos de proteína com acompanhamentos simples, além de sanduíches e salgados. Famoso pelo prato Frango Universitário.",
             "menu": [
                 {
                     "name": "Sanduíche Natural (pão de forma, frango desfiado, cenoura ralada, passas, milho e maionese Hellmanns)",
@@ -837,11 +837,11 @@
             "faixa": "$$"
         },
         {
-            "name": "Daeq",
+            "name": "DAEQ",
             "left": 368,
             "top": 390,
             "local": "Nos fundos do bloco E",
-            "description": "Lanchonete famosa por seus salgados e açaí, está localizado no Diretório Acadêmico de Engenharia Química.",
+            "description": "Lanchonete famosa por seus salgados e açaí, está localizada no Diretório Acadêmico de Engenharia Química.",
             "menu": [
                 {
                     "name": "Salgados:",
